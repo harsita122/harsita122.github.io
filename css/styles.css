@@ -291,6 +291,9 @@ footer {
     .education .item-details.content-wrap {
         color: black;
     }
+    .education a{
+        color: #383c78;
+    }
 }
 @media screen and (max-width:1000px) and (min-width:800px) {
     .profile{
