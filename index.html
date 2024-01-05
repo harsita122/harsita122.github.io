@@ -11,20 +11,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Montserrat&display=swap" rel="stylesheet">
+    <!-- css -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/button.css">
+    
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/profile-pic.js"></script>
   </head> 
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
         <div class="content-wrap">
+          <div class="redesign">
+            <div id="toggleButton" class="button r center">
+              <input type="checkbox" class="checkbox" unchecked>
+              <div class="knobs"></div>
+              <div class="layer"></div>
+            </div>
+          </div>
           <div class="profile">
             <div>
             <h1>Harsita Rajendren</h1>
               <h2>Software developer</h2>
             </div>
-            <img class="profile-pic" src="./images/profilepic.jpg">
+            <img id="profile-pic" class="profile-pic" src="./images/profilepic.jpg">
           </div>
           <p>Graduate of SRM Institute of Science and Technology, Bachelor of Technology program with hands-on experience gained through a student-centric, growth-oriented program. </p>
           <p>Currently working in HP Inc. as a software developer. Recognized for possessing a strong passion for programming and working with future technology leaders to drive personal and professional development. Adaptable computer science major eager to join an innovative organization in the capacity of Software Engineer.</p>
@@ -43,7 +55,14 @@
               <img src="images/project1n.png" alt="description of image">
             <h3>Detecting Fake Job Posting Using Machine Learning Classifications and Ensemble Model</h3>
             <p>The goal is to predict actual or fake job prediction outcomes with the maximum accuracy using machine learning-based techniques. The dataset will be analyzed using the Supervised Machine Learning Technique (SMLT) to capture numerous details such as variable identification, missing value treatments, and data validation analyses. The complete dataset will be cleaned/prepared, and data visualization will be performed. The ensemble model is created at the end using ML Algorithms like XGBoost, SVM, Logistic Regression, and Random Forest Classifier by choosing 4 of the best contributing features. The model produced at the end will be implemented in a Flask application for demonstration.</p>
-            <p>Team size: 3</p>
+            <p>Team size: 3
+            <br>Team: 
+              <a href="mailto:ap8610@srmist.edu.in">Aadharsh K Praveen</a>, 
+              <a href="mailto:hr7872@srmist.edu.in">Harsita R</a>, 
+              <a href="mailto:rm6148@srmist.edu.in">Rachanna Deva Murali</a>
+            
+              <br> Professor: <a href="mailto:nivedits@srmist.edu.in">Niveditha S</a>
+            </p>
             <a class="btn" href="https://www.scientific.net/AST.124.362" target="_blank">View paper</a>
           </section>
           <!--Project 2-->

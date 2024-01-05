@@ -130,6 +130,7 @@ header {
     align-items: center;
     flex-direction: column;
 }
+
 .project-item:last-child{
     border: none;
 }
